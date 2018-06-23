@@ -29,3 +29,4 @@ print_r($authorsAssociative);
 ksort($authorsAssociative);
 print_r($authorsAssociative);
 
+# indexed arrays are already sorted by their keys, so using this is not needed
